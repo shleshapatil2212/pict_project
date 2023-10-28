@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color:#DDFFBB;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color:brown;
+}
+.navlogo
+{
+    height: 200px;
+    width: 300px;
+    background-image:url("https://sylvanlakefarmersmarket.ca/wp-content/uploads/sites/12/2020/05/market.png");
+    background-size:cover;
+}
+.navname{
+    margin-left: 200px;
+    font-size: 100px;
+}
+.loginbar{
+    background-color: #C7E9B0;
+    color: black;
+    height: 600px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logbox{
+    font-size: 23px;
+    height: 400px;
+    width:330px;
+    background-color: beige;
+    color: black;
+}
+.logbox:hover{
+    background:rgb(157, 127, 132);
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad,0 0 50px #ff96ad,0 0 200px #ff96ad;
+}
+form{
+   
+    justify-content:stretch;
+    margin-top: 30px;
+    margin-left: 10px;
+    justify-items: center;
+    padding: 4px;
+}
+
+
+ button{
+    height: 50px;
+    width: 90px;
+    align-items: center;
+    position: absolute;
+    margin-left: 100px;
+    border-radius: 30px;
+    
+} 
+   
+.fname{
+height: 40px;
+display: flex;
+margin: 10px 10px 10px 10px ;
+}
+
+.fcontact{
+ height: 40px;
+ display: flex; 
+ margin: 10px 10px 10px 10px ;
+}
+.focc{
+    margin: 10px 10px 10px 10px ;
+    height: 40px;
+    display: flex;
+}
+
+#rgname{
+    
+    display: flex;
+    margin-bottom: 10px;
+}
+#rgnumber{
+
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+footer{
+    height: 400px;
+    background-color: rgb(37, 34, 34);
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    color: bisque;
+}
+.foot1{
+    height: 70px;
+    background-color: rgb(61, 57, 57);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot2{
+    height: 200px;
+    /* background-color: rgb(61, 57, 57); */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color:gray;
+}
+.foot2{
+    display: flex;
+    text-align: left;
+    margin-top:10px;
+
+    
+}
+.contactus{
+    padding-left:1px;
+
+}

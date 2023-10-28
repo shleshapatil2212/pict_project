@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color:#DDFFBB;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color:brown;
+}
+.navlogo
+{
+    height: 200px;
+    width: 300px;
+    background-image:url("https://sylvanlakefarmersmarket.ca/wp-content/uploads/sites/12/2020/05/market.png");
+    background-size:cover;
+}
+.navname{
+    margin-left: 200px;
+    font-size: 100px;
+}
+.cont{
+    display: flex;
+}
+.leftbar
+{
+    background-color: gray;
+    height: 1500px;
+    width: 10%;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+
+}
+.userlogo{
+    display: flex;
+    /* margin-top: 20px; */
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    background-image:url(http://pluspng.com/img-png/user-png-icon-download-icons-logos-emojis-users-2240.png);
+    background-size:cover ;
+    /* margin-left: 30px ; */
+    margin: 10px 10px 10px 10px ;
+
+}
+#username{
+    width: 100%;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self:center;
+    color: white;
+}
+.newpost{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.Profile{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    /* color:#C7E9B0 */
+}
+
+.deal{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.chat{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.rightbar{
+    height: 1500px;
+    width: 90%;
+    background-color:#C7E9B0;
+    display:block;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+}
+.box{
+    margin:0px;
+    border:border-box;
+    background: radial-gradient(circle, #72ed45 ,#93e746,  #93d951); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* box-shadow: 5px 5px 10px rgba(4, 231, 91, 0.5); */
+/* background: radial-gradient(circle, #72ed45 ,#93e746,  #93d951); */
+.vertical-line-with-shadow {
+    width: 5px; 
+    height: 100%; 
+    background-color: #075304; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 185, 40, 0.5); 
+    margin-right:6px ;
+    /* margin: 20px; */
+  }
+  
+  .horizontal-line-with-shadow {
+    width: 100%; 
+    height: 5px; 
+    background-color: #075304; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 185, 40, 0.5); 
+    margin-bottom: 20px;
+  }
+/* Pages Area */
+.pages{
+    /* background: radial-gradient(circle, #72ed45 ,#93e746,  #93d951); 
+     */
+     background-color: #DDFFBB;
+    /* background: radial-gradient(circle, #3f7908, #04ef37 , #05dc98); */
+    background: radial-gradient(circle,  #add488, #97e0bb ,#abc593);
+    position: fixed;
+    height: 100%;
+    width:8%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+}
+.pro{
+    margin-top:10px;
+    font-size: larger;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+
+
+    margin-left:30px;
+    margin-top: 60px;
+    height:50px;
+    width:50px;
+    background: radial-gradient(circle,  #b3f970,#024a26);
+    box-shadow: 5px 5px 10px rgba(0, 185, 40, 0.5);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profilepage{
+    margin: 0;
+    /* background: radial-gradient(circle, #348217 ,#65a42b,  #71d116); */
+}
+/* Upper area */
+.upperarea{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    height: 400px;
+    width: 100%;
+    margin-right: 300px;
+    color: rgb(0, 0, 0);
+    background: radial-gradient(circle,  #add488, #97e0bb ,#abc593);
+    margin-bottom: 1%;
+}
+
+.profile-details{
+
+}
+.pic
+{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300%;
+    height: 200px;
+    width:200%;
+    border-radius: 50%;
+    background-color: rgb(179, 179, 115);
+}
+.UserName{
+    margin-left: 300%;
+    display: flex;
+    background-color: rgb(1, 91, 42);
+    width: 200%;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.other-details{
+    /* background-color: #65a42b; */
+    background: radial-gradient(circle,  #59763e, #377757,#7bb247,);
+    margin-left: 25%;
+    width:50%;
+    box-shadow: 5px 5px 10px rgba(4, 231, 91, 0.5);
+    margin-right:20%;
+    /* margin-left: ; */
+}
+.other{
+    margin-top:30px;
+     height:50px;
+     width:90%;
+     box-shadow: 5px 5px 10px rgba(0, 113, 43, 0.5);
+}
+
+.add{
+    width: 100%;
+    background-color: #024a26;
+    height: 90px;
+    color: beige;
+    margin-bottom: 20px;
+}
+.postarea{
+    margin-left: 8.5%;
+    margin-right: 3%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 92%;
+    /* background-color: chocolate; */
+    /* justify-content: space-between; */
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Two columns with equal width */
+  gap: 10px;
+}
+.post{
+     height:300px; 
+     width:90%;
+     margin-bottom: 3%;
+     margin-right: 5%;
+     margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(4, 231, 91,);
+    box-shadow: 5px 5px 10px rgba(4, 231, 91, 0.5);
+    background: radial-gradient(circle, #72ed45 ,#93e746,  #93d951);
+
+} footer{
+    height: 400px;
+    background-color: rgb(37, 34, 34);
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    color: bisque;
+}
+.foot1{
+    height: 70px;
+    background-color: rgb(61, 57, 57);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot2{
+    height: 200px;
+    /* background-color: rgb(61, 57, 57); */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color:gray;
+}
+.foot2{
+    display: flex;
+    text-align: left;
+    margin-top:10px;
+
+    
+}
+.contactus{
+    padding-left:1px;
+
+}

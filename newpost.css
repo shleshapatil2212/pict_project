@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color:#DDFFBB;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color:brown;
+}
+.navlogo
+{
+    height: 200px;
+    width: 300px;
+    background-image:url("https://sylvanlakefarmersmarket.ca/wp-content/uploads/sites/12/2020/05/market.png");
+    background-size:cover;
+}
+.navname{
+    margin-left: 200px;
+    font-size: 100px;
+}
+.cont{
+    display: flex;
+}
+.leftbar
+{
+    background-color: gray;
+    height: 1500px;
+    width: 10%;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+
+}
+.userlogo{
+    display: flex;
+    /* margin-top: 20px; */
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    background-image:url(http://pluspng.com/img-png/user-png-icon-download-icons-logos-emojis-users-2240.png);
+    background-size:cover ;
+    /* margin-left: 30px ; */
+    margin: 10px 10px 10px 10px ;
+
+}
+#username{
+    width: 100%;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self:center;
+    color: white;
+}
+.newpost{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.Profile{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    /* color:#C7E9B0 */
+}
+
+.deal{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.chat{
+    height: 50px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.rightbar{
+    height: 1500px;
+    width: 90%;
+    background-color:#C7E9B0;
+    display:flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.newphoto{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.n-CjGIDQ4vI1tLkYYhJUTAHaHa&pid=Api&P=0&h=180");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 100px;
+}
+.newdetail{
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+    margin-top: 100px;
+    display: flexbox;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-right:300px;
+}
+.newdetail label{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.newdetail input{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.newdetail button{
+   background-color: rgb(222, 207, 207);
+    height: 50px;
+    margin-left: 300px;
+    width: 100px;
+    border-radius: 20px;
+}
+footer{
+    height: 400px;
+    background-color: rgb(37, 34, 34);
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    color: bisque;
+}
+.foot1{
+    height: 70px;
+    background-color: rgb(61, 57, 57);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot2{
+    height: 200px;
+    /* background-color: rgb(61, 57, 57); */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color:gray;
+}
+.foot2{
+    display: flex;
+    text-align: left;
+    margin-top:10px;
+
+    
+}
+.contactus{
+    padding-left:1px;
+
+}
